@@ -106,7 +106,7 @@
             this.planetenDropDown.Image = ((System.Drawing.Image)(resources.GetObject("planetenDropDown.Image")));
             this.planetenDropDown.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.planetenDropDown.Name = "planetenDropDown";
-            this.planetenDropDown.Size = new System.Drawing.Size(96, 20);
+            this.planetenDropDown.Size = new System.Drawing.Size(108, 20);
             this.planetenDropDown.Text = "Himmelskörper: ";
             this.planetenDropDown.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.planetenDropDown.Click += new System.EventHandler(this.planetenDropDown_Click);
@@ -150,8 +150,8 @@
             // playButton
             // 
             this.playButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            //this.playButton.Image = global::PlanetenSimulator.Properties.Resources.run;
-            this.playButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.playButton.Image = global::PlanetenSimulator.Properties.Resources.run;
+            this.playButton.ImageTransparentColor = System.Drawing.Color.Maroon;
             this.playButton.Name = "playButton";
             this.playButton.Size = new System.Drawing.Size(23, 22);
             this.playButton.Text = "Start (F1)";
@@ -161,7 +161,7 @@
             // 
             this.stopButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.stopButton.Enabled = false;
-            //this.stopButton.Image = global::PlanetenSimulator.Properties.Resources.stop;
+            this.stopButton.Image = global::PlanetenSimulator.Properties.Resources.stop;
             this.stopButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.stopButton.Name = "stopButton";
             this.stopButton.Size = new System.Drawing.Size(23, 22);
@@ -219,34 +219,34 @@
             this.ladenToolStripMenuItem,
             this.beendenToolStripMenuItem});
             this.dateiToolStripMenuItem.Name = "dateiToolStripMenuItem";
-            this.dateiToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.dateiToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.dateiToolStripMenuItem.Text = "Datei";
             // 
             // neuToolStripMenuItem
             // 
             this.neuToolStripMenuItem.Name = "neuToolStripMenuItem";
-            this.neuToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.neuToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.neuToolStripMenuItem.Text = "Neu";
             this.neuToolStripMenuItem.Click += new System.EventHandler(this.neuToolStripMenuItem_Click);
             // 
             // speichernToolStripMenuItem
             // 
             this.speichernToolStripMenuItem.Name = "speichernToolStripMenuItem";
-            this.speichernToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.speichernToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.speichernToolStripMenuItem.Text = "Speichern";
             this.speichernToolStripMenuItem.Click += new System.EventHandler(this.speichernToolStripMenuItem_Click);
             // 
             // ladenToolStripMenuItem
             // 
             this.ladenToolStripMenuItem.Name = "ladenToolStripMenuItem";
-            this.ladenToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.ladenToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.ladenToolStripMenuItem.Text = "Laden";
             this.ladenToolStripMenuItem.Click += new System.EventHandler(this.ladenToolStripMenuItem_Click);
             // 
             // beendenToolStripMenuItem
             // 
             this.beendenToolStripMenuItem.Name = "beendenToolStripMenuItem";
-            this.beendenToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.beendenToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.beendenToolStripMenuItem.Text = "Beenden (Esc)";
             this.beendenToolStripMenuItem.Click += new System.EventHandler(this.beendenToolStripMenuItem_Click);
             // 
@@ -258,34 +258,34 @@
             this.entfernenToolStripMenuItem,
             this.startPauseToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(88, 20);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(101, 20);
             this.toolStripMenuItem1.Text = "Himmelskörper";
             // 
             // hinzufgenToolStripMenuItem
             // 
             this.hinzufgenToolStripMenuItem.Name = "hinzufgenToolStripMenuItem";
-            this.hinzufgenToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.hinzufgenToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.hinzufgenToolStripMenuItem.Text = "Hinzufügen";
             this.hinzufgenToolStripMenuItem.Click += new System.EventHandler(this.hinzufgenToolStripMenuItem_Click);
             // 
             // bearbeitenToolStripMenuItem
             // 
             this.bearbeitenToolStripMenuItem.Name = "bearbeitenToolStripMenuItem";
-            this.bearbeitenToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.bearbeitenToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.bearbeitenToolStripMenuItem.Text = "Bearbeiten";
             this.bearbeitenToolStripMenuItem.Click += new System.EventHandler(this.bearbeitenToolStripMenuItem_Click);
             // 
             // entfernenToolStripMenuItem
             // 
             this.entfernenToolStripMenuItem.Name = "entfernenToolStripMenuItem";
-            this.entfernenToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.entfernenToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.entfernenToolStripMenuItem.Text = "Entfernen";
             this.entfernenToolStripMenuItem.Click += new System.EventHandler(this.entfernenToolStripMenuItem_Click);
             // 
             // startPauseToolStripMenuItem
             // 
             this.startPauseToolStripMenuItem.Name = "startPauseToolStripMenuItem";
-            this.startPauseToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.startPauseToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.startPauseToolStripMenuItem.Text = "Start/Stop";
             this.startPauseToolStripMenuItem.Click += new System.EventHandler(this.startPauseToolStripMenuItem_Click);
             // 
@@ -296,27 +296,27 @@
             this.hilfeToolStripMenuItem,
             this.statistikToolStripMenuItem});
             this.infoToolStripMenuItem.Name = "infoToolStripMenuItem";
-            this.infoToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
+            this.infoToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
             this.infoToolStripMenuItem.Text = "Info";
             // 
             // überToolStripMenuItem
             // 
             this.überToolStripMenuItem.Name = "überToolStripMenuItem";
-            this.überToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.überToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.überToolStripMenuItem.Text = "Über";
             this.überToolStripMenuItem.Click += new System.EventHandler(this.überToolStripMenuItem_Click);
             // 
             // hilfeToolStripMenuItem
             // 
             this.hilfeToolStripMenuItem.Name = "hilfeToolStripMenuItem";
-            this.hilfeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.hilfeToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.hilfeToolStripMenuItem.Text = "Hilfe";
             this.hilfeToolStripMenuItem.Click += new System.EventHandler(this.hilfeToolStripMenuItem_Click);
             // 
             // statistikToolStripMenuItem
             // 
             this.statistikToolStripMenuItem.Name = "statistikToolStripMenuItem";
-            this.statistikToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.statistikToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.statistikToolStripMenuItem.Text = "Statistik";
             // 
             // menuStrip1
@@ -337,13 +337,13 @@
             this.optonenToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.methodeToolStripMenuItem});
             this.optonenToolStripMenuItem.Name = "optonenToolStripMenuItem";
-            this.optonenToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.optonenToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.optonenToolStripMenuItem.Text = "Bearbeiten";
             // 
             // methodeToolStripMenuItem
             // 
             this.methodeToolStripMenuItem.Name = "methodeToolStripMenuItem";
-            this.methodeToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.methodeToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.methodeToolStripMenuItem.Text = "Optionen";
             this.methodeToolStripMenuItem.Click += new System.EventHandler(this.methodeToolStripMenuItem_Click);
             // 
@@ -359,8 +359,8 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainWindow";
             this.Text = "PlanetenSimulator";
-            this.SizeChanged += new System.EventHandler(this.windowSizeChanged);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.exitForm);
+            this.SizeChanged += new System.EventHandler(this.windowSizeChanged);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
