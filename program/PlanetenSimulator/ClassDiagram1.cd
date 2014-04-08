@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="PlanetenSimulator.About" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>About.cs</FileName>
+      <HashCode>AAAAAAACACAAABAAAACAAAACAAAAAAAAAAAAAAAAAQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanetenSimulator.AddOrb" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>AddOrb.cs</FileName>
+      <HashCode>/xZQAgAAATAGDjAAAQCAIwACAAAEAAKAAIBFAgACgDA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanetenSimulator.Control" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Control.cs</FileName>
+      <HashCode>AAABACAAAAAAAAAAAAAAAAAAAAAIAEABAAQAAAACAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanetenSimulator.DelOrb" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DelOrb.cs</FileName>
+      <HashCode>AAFAAAAAACAAABAAAAKAgQACAAAEQAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanetenSimulator.EditOrb" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EditOrb.cs</FileName>
+      <HashCode>/xdQAAAAASEGDjCQEACAIwDCqAUEgAKEWIFFggAAAvA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanetenSimulator.File" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>File.cs</FileName>
+      <HashCode>AAAAQAAAAICAAAAAAAAAAAAAAIAAgAAAAAAAAAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanetenSimulator.Graphic" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Graphic.cs</FileName>
+      <HashCode>AIAAEAATAAEAAAAAAABEAAQEKQAEBAAAARAAAAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanetenSimulator.Help" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Help.cs</FileName>
+      <HashCode>AAAAAAAAACAgABAAAACCAAACBAAIAAAAAEAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanetenSimulator.MainWindow" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MainWindow.cs</FileName>
+      <HashCode>AxBIhAlAE63AlBBCEWSxWJ2GjIQgrEKCEBBgSSwGwAk=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanetenSimulator.New" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>New.cs</FileName>
+      <HashCode>AAAAAAACACAAEBAAAACAAAACAAAcAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanetenSimulator.Options" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Options.cs</FileName>
+      <HashCode>AABAAAAAACAAABAAAACAAQBGAAAEgAIAAABAAAAgAAU=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanetenSimulator.Orb_Ellipse" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Orb-Ellipse.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAQAAEAAAEAAAAAAABAgBAAAABwAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanetenSimulator.Orb_Gravitation" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Orb-Gravitation.cs</FileName>
+      <HashCode>AAABAAAAAAABAAAAAAAAAAEAAAAAAABAABAAAAAQABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanetenSimulator.Orb_OneSun" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Orb-OneSun.cs</FileName>
+      <HashCode>AAgBAAAAAAABAAAAAAAAAAEAAAACACBAABAAAAAQABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanetenSimulator.Orb" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Orb.cs</FileName>
+      <HashCode>IAAAIAAAGAAAAwAAAQQAIYACAIgEwABACIEVDAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanetenSimulator.Program" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Program.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanetenSimulator.Properties.Resources" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgAAAAAAAAAAAAEBEAAAAQAgAAAAAQAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanetenSimulator.Properties.Settings" Collapsed="true">
+    <Position X="9" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Settings.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAIAAAAAABAAAAAAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

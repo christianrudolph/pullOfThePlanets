@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:documentation xml:lang="de">
+      Schema zur Validierung von XML Dateien des PlanetenSimulators
+    </xs:documentation>
+  </xs:annotation>
+  <xs:element name="simulator">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="orb" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="orb">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element ref="ellipse"/>
+        <xs:element ref="onesun"/>
+        <xs:element ref="gravitation"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ellipse">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="radius" type="xs:float"/>
+        <xs:element name="layout" type="xs:string"/>
+        <xs:element name="methode" type="xs:string"/>
+        <xs:element ref="position"/>
+        <xs:element name="speed" type="xs:double"/>
+        <xs:element ref="axis"/>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="onesun">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="radius" type="xs:float"/>
+        <xs:element name="layout" type="xs:string"/>
+        <xs:element name="methode" type="xs:string"/>
+        <xs:element ref="position"/>
+        <xs:element name="center" type="xs:int"/>
+        <xs:element name="mass" type="xs:double"/>
+        <xs:element ref="speed"/>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="gravitation">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="radius" type="xs:float"/>
+        <xs:element name="layout" type="xs:string"/>
+        <xs:element name="methode" type="xs:string"/>
+        <xs:element ref="position"/>
+        <xs:element name="mass" type="xs:double"/>
+        <xs:element ref="speed"/>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="position">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="x" type="xs:double"/>
+        <xs:element name="y" type="xs:double"/>
+        <xs:element name="z" type="xs:double"/>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="speed">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="x" type="xs:double"/>
+        <xs:element name="y" type="xs:double"/>
+        <xs:element name="z" type="xs:double"/>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="axis">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="great" type="xs:double"/>
+        <xs:element name="little" type="xs:double"/>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

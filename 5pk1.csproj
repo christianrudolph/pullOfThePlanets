@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{BCB73A3C-D1C1-4575-8C10-B82474D40AFC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>_5pk1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>PlanetenSimulator.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.Direct3D.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.Direct3DX, Version=1.0.2911.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.Direct3DX.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="presentation\ClassDiagram1.png" />
+    <Content Include="program\5pk1.csproj" />
+    <Content Include="program\5pk1.csproj.user" />
+    <Content Include="program\5pk1.sln" />
+    <Content Include="program\bin\Debug\ConsoleApplication.vshost.exe" />
+    <Content Include="program\bin\Debug\WindowsApplication.vshost.exe" />
+    <Content Include="program\obj\x86\Debug\5pk1.csproj.FileListAbsolute.txt" />
+    <Content Include="program\obj\x86\Debug\planetensimulation.csproj.FileListAbsolute.txt" />
+    <Content Include="program\planetensimulation.csproj" />
+    <Content Include="program\planetensimulation.csproj.user" />
+    <Content Include="program\planetensimulation.sln" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\1.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\2.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\2SonnenGravitation.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\2SonnenGravitation2.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\3.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\BeispieGravitationl2%28Zusammensturz%29.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\BeispielGravitation1.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\BeispielGravitationBahnstoerung.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\BeispielGravitationBahnstoerung2.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\BeispielGravitationEinfach2Planeten.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\BeispielGravitationEinfachGrosseBahn.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\BeispielGravitationMond.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\BeispielGravitation_grosseBahn.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\BeispielGravitation_kleineBahn.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\BeispielSUNGravitationBahnstoerungGenau.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\BeispielSUNGravitationBahnstoerungSchnell.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\BespielOneSun1.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\BespielOneSun2.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\BespielOneSun3D.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\config.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\Ellipse1.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\PlanetenSimulator.exe" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\PlanetenSimulator.pdb" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\PlanetenSimulator.vshost.exe" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\Screenshots\20080311_1950086780368.png" />
+    <Content Include="program\PlanetenSimulator\bin\Debug\Sturz.xml" />
+    <Content Include="program\PlanetenSimulator\bin\Release\PlanetenSimulator.exe" />
+    <Content Include="program\PlanetenSimulator\bin\Release\PlanetenSimulator.pdb" />
+    <Content Include="program\PlanetenSimulator\bin\Release\PlanetenSimulator.vshost.exe" />
+    <Content Include="program\PlanetenSimulator\obj\Debug\PlanetenSimulator.exe" />
+    <Content Include="program\PlanetenSimulator\obj\Debug\PlanetenSimulator.pdb" />
+    <Content Include="program\PlanetenSimulator\obj\Debug\PlanetenSimulator.TrustInfo.xml" />
+    <Content Include="program\PlanetenSimulator\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="program\PlanetenSimulator\obj\Debug\test.xml" />
+    <Content Include="program\PlanetenSimulator\obj\PlanetenSimulator.csproj.FileList.txt" />
+    <Content Include="program\PlanetenSimulator\obj\PlanetenSimulator.csproj.FileListAbsolute.txt" />
+    <Content Include="program\PlanetenSimulator\obj\Release\PlanetenSimulator.exe" />
+    <Content Include="program\PlanetenSimulator\obj\Release\PlanetenSimulator.pdb" />
+    <Content Include="program\PlanetenSimulator\obj\Release\PlanetenSimulator.TrustInfo.xml" />
+    <Content Include="program\PlanetenSimulator\obj\Release\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="program\PlanetenSimulator\PlanetenSimulator.csproj" />
+    <Content Include="program\PlanetenSimulator\PlanetenSimulator.csproj.user" />
+    <Content Include="program\PlanetenSimulator\PlanetenSimulator.sln" />
+    <Content Include="program\PlanetenSimulator\Resources\buttons.jpg" />
+    <Content Include="program\PlanetenSimulator\Resources\camera.png" />
+    <Content Include="program\PlanetenSimulator\Resources\icon.ico" />
+    <Content Include="program\PlanetenSimulator\Resources\Microsoft.DirectX.Direct3D.dll" />
+    <Content Include="program\PlanetenSimulator\Resources\Microsoft.DirectX.Direct3DX.dll" />
+    <Content Include="program\PlanetenSimulator\Resources\Microsoft.DirectX.dll" />
+    <Content Include="program\PlanetenSimulator\Resources\run.png" />
+    <Content Include="program\PlanetenSimulator\Resources\stop.png" />
+    <Content Include="program\PlanetenSimulator\TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="presentation\formeln.docx" />
+    <None Include="presentation\Inhalt.docx" />
+    <None Include="presentation\Presentation.pdf" />
+    <None Include="presentation\Presentation.ppt" />
+    <None Include="presentation\presentation.pptx" />
+    <None Include="program\bin\Debug\ConsoleApplication.vshost.exe.manifest" />
+    <None Include="program\bin\Debug\WindowsApplication.vshost.exe.manifest" />
+    <None Include="program\obj\x86\Debug\5pk1.csproj.GenerateResource.Cache" />
+    <None Include="program\obj\x86\Debug\5pk1.csprojResolveAssemblyReference.cache" />
+    <None Include="program\obj\x86\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="program\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="program\obj\x86\Debug\planetensimulation.csproj.GenerateResource.Cache" />
+    <None Include="program\obj\x86\Debug\planetensimulation.csprojResolveAssemblyReference.cache" />
+    <None Include="program\PlanetenSimulator\bin\Debug\PlanetenSimulator.application" />
+    <None Include="program\PlanetenSimulator\bin\Debug\PlanetenSimulator.exe.manifest" />
+    <None Include="program\PlanetenSimulator\bin\Debug\PlanetenSimulator.vshost.application" />
+    <None Include="program\PlanetenSimulator\bin\Debug\PlanetenSimulator.vshost.exe.manifest" />
+    <None Include="program\PlanetenSimulator\bin\Debug\Resources\configXMLTest.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="program\PlanetenSimulator\bin\Debug\Resources\configXMLTest.xsx">
+      <DependentUpon>configXMLTest.xsd</DependentUpon>
+    </None>
+    <None Include="program\PlanetenSimulator\bin\Debug\Resources\orbXMLTest.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="program\PlanetenSimulator\bin\Release\PlanetenSimulator.application" />
+    <None Include="program\PlanetenSimulator\bin\Release\PlanetenSimulator.exe.manifest" />
+    <None Include="program\PlanetenSimulator\bin\Release\PlanetenSimulator.vshost.application" />
+    <None Include="program\PlanetenSimulator\bin\Release\PlanetenSimulator.vshost.exe.manifest" />
+    <None Include="program\PlanetenSimulator\bin\Release\Resources\configXMLTest.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="program\PlanetenSimulator\bin\Release\Resources\configXMLTest.xsx">
+      <DependentUpon>configXMLTest.xsd</DependentUpon>
+    </None>
+    <None Include="program\PlanetenSimulator\bin\Release\Resources\orbXMLTest.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="program\PlanetenSimulator\ClassDiagram1.cd" />
+    <None Include="program\PlanetenSimulator\obj\Debug\PlanetenSimulator.application" />
+    <None Include="program\PlanetenSimulator\obj\Debug\PlanetenSimulator.csproj.GenerateResource.Cache" />
+    <None Include="program\PlanetenSimulator\obj\Debug\PlanetenSimulator.exe.manifest" />
+    <None Include="program\PlanetenSimulator\obj\Debug\ResolveAssemblyReference.cache" />
+    <None Include="program\PlanetenSimulator\obj\Release\PlanetenSimulator.application" />
+    <None Include="program\PlanetenSimulator\obj\Release\PlanetenSimulator.csproj.GenerateResource.Cache" />
+    <None Include="program\PlanetenSimulator\obj\Release\PlanetenSimulator.exe.manifest" />
+    <None Include="program\PlanetenSimulator\obj\Release\ResolveAssemblyReference.cache" />
+    <None Include="program\PlanetenSimulator\PlanetenSimulator.suo" />
+    <None Include="program\PlanetenSimulator\Properties\app.manifest" />
+    <None Include="program\PlanetenSimulator\Properties\Settings.settings" />
+    <None Include="program\PlanetenSimulator\Resources\configXMLTest.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="program\PlanetenSimulator\Resources\configXMLTest.xsx">
+      <DependentUpon>configXMLTest.xsd</DependentUpon>
+    </None>
+    <None Include="program\PlanetenSimulator\Resources\orbXMLTest.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="program\PlanetenSimulator\Resources\orbXMLTest.xsx">
+      <DependentUpon>orbXMLTest.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="program\obj\x86\Debug\planetensimulation.PlanetenSimulator.Properties.Resources.resources" />
+    <EmbeddedResource Include="program\obj\x86\Debug\PlanetenSimulator.About.resources" />
+    <EmbeddedResource Include="program\obj\x86\Debug\PlanetenSimulator.AddOrb.resources" />
+    <EmbeddedResource Include="program\obj\x86\Debug\PlanetenSimulator.DelOrb.resources" />
+    <EmbeddedResource Include="program\obj\x86\Debug\PlanetenSimulator.EditOrb.resources" />
+    <EmbeddedResource Include="program\obj\x86\Debug\PlanetenSimulator.Help.resources" />
+    <EmbeddedResource Include="program\obj\x86\Debug\PlanetenSimulator.MainWindow.resources" />
+    <EmbeddedResource Include="program\obj\x86\Debug\PlanetenSimulator.New.resources" />
+    <EmbeddedResource Include="program\obj\x86\Debug\PlanetenSimulator.Options.resources" />
+    <EmbeddedResource Include="program\obj\x86\Debug\_5pk1.PlanetenSimulator.Properties.Resources.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="program\PlanetenSimulator\AddOrb.resx">
+      <DependentUpon>AddOrb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="program\PlanetenSimulator\DelOrb.resx">
+      <DependentUpon>DelOrb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="program\PlanetenSimulator\EditOrb.resx">
+      <DependentUpon>EditOrb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="program\PlanetenSimulator\Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="program\PlanetenSimulator\MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="program\PlanetenSimulator\New.resx">
+      <DependentUpon>New.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Debug\PlanetenSimulator.About.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Debug\PlanetenSimulator.AddOrb.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Debug\PlanetenSimulator.DelOrb.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Debug\PlanetenSimulator.EditOrb.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Debug\PlanetenSimulator.Help.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Debug\PlanetenSimulator.MainWindow.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Debug\PlanetenSimulator.New.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Debug\PlanetenSimulator.Options.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Debug\PlanetenSimulator.Properties.Resources.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Release\PlanetenSimulator.About.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Release\PlanetenSimulator.AddOrb.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Release\PlanetenSimulator.DelOrb.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Release\PlanetenSimulator.EditOrb.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Release\PlanetenSimulator.Exit.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Release\PlanetenSimulator.Help.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Release\PlanetenSimulator.MainWindow.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Release\PlanetenSimulator.New.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Release\PlanetenSimulator.Options.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\obj\Release\PlanetenSimulator.Properties.Resources.resources" />
+    <EmbeddedResource Include="program\PlanetenSimulator\Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="program\PlanetenSimulator\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="program\PlanetenSimulator\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="program\PlanetenSimulator\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="program\PlanetenSimulator\AddOrb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="program\PlanetenSimulator\AddOrb.Designer.cs">
+      <DependentUpon>AddOrb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="program\PlanetenSimulator\Control.cs" />
+    <Compile Include="program\PlanetenSimulator\DelOrb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="program\PlanetenSimulator\DelOrb.Designer.cs">
+      <DependentUpon>DelOrb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="program\PlanetenSimulator\EditOrb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="program\PlanetenSimulator\EditOrb.Designer.cs">
+      <DependentUpon>EditOrb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="program\PlanetenSimulator\File.cs" />
+    <Compile Include="program\PlanetenSimulator\Graphic.cs" />
+    <Compile Include="program\PlanetenSimulator\Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="program\PlanetenSimulator\Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="program\PlanetenSimulator\MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="program\PlanetenSimulator\MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="program\PlanetenSimulator\New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="program\PlanetenSimulator\New.Designer.cs">
+      <DependentUpon>New.cs</DependentUpon>
+    </Compile>
+    <Compile Include="program\PlanetenSimulator\Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="program\PlanetenSimulator\Options.Designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="program\PlanetenSimulator\Orb-Ellipse.cs" />
+    <Compile Include="program\PlanetenSimulator\Orb-Gravitation.cs" />
+    <Compile Include="program\PlanetenSimulator\Orb-OneSun.cs" />
+    <Compile Include="program\PlanetenSimulator\Orb.cs" />
+    <Compile Include="program\PlanetenSimulator\Program.cs" />
+    <Compile Include="program\PlanetenSimulator\Properties\AssemblyInfo.cs" />
+    <Compile Include="program\PlanetenSimulator\Properties\Resources.Designer.cs" />
+    <Compile Include="program\PlanetenSimulator\Properties\Settings.Designer.cs" />
+    <Compile Include="program\PlanetenSimulator\Settings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="program\bin\Release\" />
+    <Folder Include="program\obj\x86\Debug\TempPE\" />
+    <Folder Include="program\PlanetenSimulator\obj\Debug\Refactor\" />
+    <Folder Include="program\PlanetenSimulator\obj\Release\Refactor\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

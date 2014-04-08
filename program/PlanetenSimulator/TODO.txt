@@ -1,0 +1,14 @@
+---------
+--TODO:--
+---------
+weiter Berechungsmethoden
+Dokumentation
+Statsitik
+Ansicht
+---------------
+--Änderungen---
+---------------
+########## 10.3.
+Laden & Speichern mit Überprüfung des XML-Dokuments
+Threats gehen jetzt ;)
+Play & Stop Button an oder aus
