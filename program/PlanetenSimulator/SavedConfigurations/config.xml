@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Created by PlanetenSimulator-->
+<simulator>
+  <config>
+    <tick>0.01</tick>
+    <intervall>1</intervall>
+    <deep>500</deep>
+    <layouts>
+      <Red>Rot</Red>
+      <Blue>Blau</Blue>
+      <Green>Grün</Green>
+      <Yellow>Sonne</Yellow>
+    </layouts>
+  </config>
+</simulator>

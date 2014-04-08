@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Created by PlanetenSimulator-->
+<simulator>
+  <orb>
+    <ellipse>
+      <name>1</name>
+      <radius>1</radius>
+      <layout>Rot</layout>
+      <methode>Ellipse</methode>
+      <position>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+      </position>
+      <speed>1</speed>
+      <axis>
+        <great>111</great>
+        <little>11</little>
+      </axis>
+    </ellipse>
+  </orb>
+</simulator>

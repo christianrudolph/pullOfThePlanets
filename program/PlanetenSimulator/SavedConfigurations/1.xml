@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Created by PlanetenSimulator-->
+<simulator>
+  <orb>
+    <gravitation>
+      <name>Sonne</name>
+      <radius>1</radius>
+      <layout>Sonne</layout>
+      <methode>Gravitation</methode>
+      <position>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </position>
+      <mass>90000000000</mass>
+      <speed>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </speed>
+    </gravitation>
+  </orb>
+  <orb>
+    <onesun>
+      <name>Erde</name>
+      <radius>0.3</radius>
+      <layout>Blau</layout>
+      <methode>EineSonne</methode>
+      <position>
+        <x>18</x>
+        <y>0</y>
+        <z>0</z>
+      </position>
+      <center>0</center>
+      <mass>1000</mass>
+      <speed>
+        <x>0</x>
+        <y>0.76</y>
+        <z>0</z>
+      </speed>
+    </onesun>
+  </orb>
+</simulator>
